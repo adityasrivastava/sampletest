@@ -1,0 +1,114 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    background-image: url('../images/background2.jpg');
+    background-size: cover;
+    
+}
+
+/* Website Title Start */
+
+.title {
+    margin: 0;
+    padding: 2%;
+    width: auto;
+    height: auto;
+    color: lightgray;
+    background-color: #242526;
+    opacity: 0.;
+    font-family: serif;
+    
+}
+
+/* Website Title End */
+
+/* Menu List Start */
+
+.header-container{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #647199;
+}
+
+.header-container ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+.menu-list>li{
+    padding: 1%;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.header-container li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+.menu-drop{
+    display: none;
+    position: absolute;
+    width: 200%;
+    top: 99.5%;
+    z-index: 1;
+    
+}
+
+.menu-list li:hover .menu-drop{
+    background-color: #647199;
+    display: block;
+}
+
+.menu-drop li:hover {
+    background-color: cadetblue;
+}
+
+/* Menu List End */
+
+/* Food Items in View Start */
+
+.foodmenu{
+    margin-top: 5%;
+    margin-left: 13%;
+    
+}
+
+.element-item{
+    margin: 2px;
+    padding: 0;
+    width: 20%;
+
+   
+}
+.element-item .name,.price,.type,.rsLabel{
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+    
+}
+
+.element-item .name{
+    font-weight: bold;
+}
+
+.element-item .type{
+    display: none;
+}
+
+.element-item .image{
+    margin: 10%;
+    width: 80%;
+     
+}
+
+/* Food Items in View End */
